@@ -1,0 +1,12 @@
+@import "./fonts.scss";
+body {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}

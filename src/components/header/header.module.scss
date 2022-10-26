@@ -1,0 +1,29 @@
+@import "./../../scss/variables.scss";
+.header {
+  height: 80px;
+  background: #4f27bf;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  font-weight: 700;
+  color: $tertiary;
+  margin-left: 24px;
+}
+
+.header_logo {
+  display: flex;
+  margin-left: 32px;
+}
+
+.header_user {
+  display: flex;
+  flex-direction: row;
+}
+.user_name {
+  font-weight: 700;
+  color: $tertiary;
+  margin-left: 16px;
+  margin-right: 32px;
+}
